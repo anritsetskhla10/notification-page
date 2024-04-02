@@ -1,0 +1,79 @@
+[
+    {
+        "id":1,
+        "img":"./images/avatar-mark-webber.webp",
+        "name": "Mark Webber",
+        "action":"reacted to your recent post",
+        "postContent":"My first tournament today!",
+        "seen": false,
+        "time":"1m ago",
+        "msg":"",
+        "yourPhoto":""
+    },
+    {
+        "id":2,
+        "img":"./images/avatar-angela-gray.webp",
+        "name": "Angela Gray",
+        "action":"followed you",
+        "postContent":"",
+        "seen": false,
+        "time":"5m ago",
+        "msg":"",
+        "yourPhoto":""
+    },
+    {
+        "id":3,
+        "img":"./images/avatar-jacob-thompson.webp",
+        "name": "Jacob Thompson",
+        "action":"has joined your group",
+        "postContent":"Chess Club",
+        "seen": false,
+        "time":"1 day ago",
+        "msg":"",
+        "yourPhoto":""
+    },
+    {
+        "id":4,
+        "img":"./images/avatar-rizky-hasanuddin.webp",
+        "name": "Rizky Hasanuddin",
+        "action":"sent you a private message",
+        "postContent":"",
+        "seen": true,
+        "time":"5 day ago",
+        "msg":" Hello, thanks for setting up the Chess Club. I’ve been a member for a few weeks now and I’m already having lots of fun and improving my game.",
+        "yourPhoto":""
+    },
+    {
+        "id":5,
+        "img":"./images/avatar-kimberly-smith.webp",
+        "name": "Kimberly Smith",
+        "action":"commented on your picture",
+        "postContent":"",
+        "seen": true,
+        "time":"1 week ago",
+        "msg":"",
+        "yourPhoto":"./images/image-chess.webp"
+    },
+    {
+        "id":6,
+        "img":"./images/avatar-nathan-peterson.webp",
+        "name": "Nathan Peterson",
+        "action":"reacted to your recent post",
+        "postContent":"5 end-game strategies to increase your win rate",
+        "seen": true,
+        "time":"2 weeks ago",
+        "msg":"",
+        "yourPhoto":""
+    },
+    {
+        "id":7,
+        "img":"./images/avatar-anna-kim.webp",
+        "name": "Anna Kim",
+        "action":"left the group",
+        "postContent":"Chess Club",
+        "seen": true,
+        "time":"2 weeks ago",
+        "msg":"",
+        "yourPhoto":""
+    }
+]
