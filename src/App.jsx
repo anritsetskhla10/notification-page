@@ -46,13 +46,29 @@ function App() {
       <MainStyle>
           {data.map((item) => (
           
-            <div key={item.id} className={item.seen ? 'seen' : 'notification'}>
+            <div key={item.id} 
+            className={item.seen ? 'seen' : 'notification'}
+            onClick= { () =>{
+              const newNotification = data.map((newMessage) => {
+                if(item.id === newMessage.id){
+                  return {...newMessage, seen: true}
+                }
+                return newMessage
+              })
+              setData(newNotification)
+            }
+              
+            }>
               <img src={getImageSource(item.img)} alt={item.name} className='img' />
               <div className='content'>
-                <p className='name'><span className='name2'>{item.name}</span>&nbsp;
-                <span className='action'>{item.action} </span>&nbsp;
-                <span className={item.postContent === 'Chess Club'?'chessClub' : 'postContent'} >{item.postContent}</span>
-                <div className={item.seen ? 'read': 'unread'}></div></p>
+              <div className='name'>
+                <p>
+                  <span className='name2'>{item.name}</span>&nbsp;
+                  <span className='action'>{item.action} </span>&nbsp;
+                  <span className={item.postContent === 'Chess Club' ? 'chessClub' : 'postContent'}>{item.postContent}</span>
+                  <span className={item.seen ? 'read': 'unread'}></span>
+                </p>
+              </div>
                 <h4 className='time'>{item.time}</h4>
                 <div className={item.msg !== ''?'msg' : 'read'}>{item.msg}</div>
               </div>

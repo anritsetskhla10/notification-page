@@ -17,6 +17,7 @@ const MainStyle = styled.main`
         display: flex;
         flex-direction: row;
         gap: 13px;
+        cursor: pointer;
     }
 
     .seen{
@@ -28,6 +29,7 @@ const MainStyle = styled.main`
         display: flex;
         flex-direction: row;
         gap: 13px;
+        cursor: pointer;
     }
 
     .img{
